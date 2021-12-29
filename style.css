@@ -3,7 +3,7 @@
     color: white;
 }
 .text{
-    color: green;
+    color: yellow;
 }
 .text1{
     color: blueviolet;
@@ -46,6 +46,62 @@ color:blue;
 .text3{
     color:red;
 }
-.text4{
 
+#progress1{
+    position: relative;
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 240px;
+    padding: 3px;
+}
+#progress1:after {
+    content: '';
+    display: block;
+    background: red;
+    width: 75%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress2{
+    position: relative;
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 240px;
+    padding: 3px;
+}
+#progress2:after {
+    content: '';
+    display: block;
+    background: yellow;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress3{
+    position: relative;
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 240px;
+    padding: 3px;
+}
+#progress3:after {
+    content: '';
+    display: block;
+    background: Pink;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+.java{
+    font-size: 13px;
+}
+
+.chartheader{
+    font-size: 13px;
+}
+h5{
+color:yellow;
 }
