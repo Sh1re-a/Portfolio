@@ -118,3 +118,10 @@ color:yellow;
 .carousel-item{
     transition: transform 0,1s ease out;
 }
+
+.Logoname{
+    color:blue;
+}
+.Logoname1{
+    color:Yellow;
+}
