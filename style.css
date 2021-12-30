@@ -34,7 +34,7 @@ img:nth-child(1){
     color:yellow;
     font-size: 60px;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    
    
     
 }
@@ -53,54 +53,8 @@ color:blue;
     color:red;
 }
 
-#progress1{
-    position: relative;
-    background: #333;
-    border-radius: 13px;
-    height: 10px;
-    width: 240px;
-    padding: 3px;
-}
-#progress1:after {
-    content: '';
-    display: block;
-    background: red;
-    width: 75%;
-    height: 100%;
-    border-radius: 9px;
-}
-#progress2{
-    position: relative;
-    background: #333;
-    border-radius: 13px;
-    height: 10px;
-    width: 240px;
-    padding: 3px;
-}
-#progress2:after {
-    content: '';
-    display: block;
-    background: yellow;
-    width: 40%;
-    height: 100%;
-    border-radius: 9px;
-}
-#progress3{
-    position: relative;
-    background: #333;
-    border-radius: 13px;
-    height: 10px;
-    width: 240px;
-    padding: 3px;
-}
-#progress3:after {
-    content: '';
-    display: block;
-    background: Pink;
-    width: 60%;
-    height: 100%;
-    border-radius: 9px;
-}
+
+
 .java{
     font-size: 13px;
 }
@@ -115,9 +69,7 @@ color:yellow;
     color:lightgreen;
 }
 
-.carousel-item{
-    transition: transform 0,1s ease out;
-}
+
 
 .Logoname{
     color:blue;
